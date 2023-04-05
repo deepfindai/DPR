@@ -13,7 +13,7 @@ pretrained_file:
 projection_dim: 0
 
 # Max length of the encoder input sequence
-sequence_length: 256
+sequence_length: 300
 
 dropout: 0.1
 
@@ -21,4 +21,4 @@ dropout: 0.1
 fix_ctx_encoder: False
 
 # if False, the model won't load pre-trained BERT weights
-pretrained: True
+pretrained: False
